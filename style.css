@@ -1,0 +1,8 @@
+.override-banner {
+  position: relative
+}
+
+#banner_mainTitle {
+  position: absolute;
+  top: 10px;
+}
