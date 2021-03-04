@@ -1,8 +1,11 @@
-.override-banner {
-  position: relative
+.carousel-caption {
+  top: 220px;
 }
 
-#banner_mainTitle {
-  position: absolute;
-  top: 10px;
+.carousel-caption h1, .carousel-caption h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 5rem;
 }
+
+
+
