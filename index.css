@@ -14,5 +14,16 @@
     color: #321f28;  
 }
 .bloc3 {
-    color: #321f28;  
+    color: #321f28; 
+    background-color: white; 
 }
+.carousel-caption {
+    top: 220px;
+  }
+  .carousel-caption h1, .carousel-caption h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 5rem;
+  }
+  h4 {
+    font-family: 'Caveat', cursive;
+  }

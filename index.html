@@ -7,9 +7,12 @@
     <meta name="description" content="Librairie Univers Papier "/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"/>
     <link rel="stylesheet" href="index.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E/">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet"/>
     <title>Univers Papiers</title>
 </head>
 <body>
+  <!-- Bootstrap Header -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
       <img src="logo.jpg" alt="equipe" title="Team"/> 
@@ -42,6 +45,44 @@
     </div>
   </nav>
   </div>
+   <!-- Bootstrap banner -->
+   <div id="carouselBanner" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="homepage_banner_lg_detective_overlay.jpg" class="d-block w-100" alt="detective books"
+          title="detective books">
+        <div class="carousel-caption">
+          <h2>Univers de Papier</h2>
+          <h3>Librairie spécialiste du roman policier et de science-fiction</h3>
+        </div>
+      </div>
+  <!--
+      <div class="carousel-item active">
+        <img src="pictures/home_banner_bookShelf_lg.jpg" class="d-block w-100" alt="book shelf" title="book shelf">
+        <div class="carousel-caption">
+          <h1>Univers de Papier</h1>
+          <h3>Librairie spécialiste du roman policier et de science-fiction</h3>
+        </div>
+      </div>
+  -->
+      <div class="carousel-item">
+        <img src="homepage_banner_lg_SF_overlay.jpg" class="d-block w-100" alt="SF books" title="SF books">
+        <div class="carousel-caption">
+          <h2>Univers de Papier</h2>
+          <h3>Librairie spécialiste du roman policier et de science-fiction</h3>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- Bootstrap nouveautés -->
     <div class="bloc1 text-light">
     <h4 class="text-center mx-auto" style="width:50%" id="new">Nos Nouveautés du mois :</h4> 
     <div class="text-center mx-auto float-left">
@@ -99,6 +140,7 @@
     </div>
     </div>
     </div>
+    <!-- Bootstrap Presentation -->
   <div class="row mb-4">
     <div class="col-6">
       <img src="./polar.jpg" class="img-fluid" alt="equipe" title="Team" id="us"/>
@@ -110,7 +152,6 @@
           <p>Adresse : Les Docks, 143 Rue Yves le Coz, 78000 Versailles</p>
         </div>
       </div>
-
 <div class="row"id="value">
   <div class="bloc3 col-6">
     <img src="./eco.png" class="img-fluid" alt="Une image de librairie" title="Une Librairie"/>
@@ -123,6 +164,14 @@
     <p>Afin de vous accompagner dans votre lecture nous vous proposons des boissons maison et des mets issues de l'agriculture biologique.</p>
   </div>
 </div>
+<!-- Bootstrap banner -->
+<nav class="navbar navbar-expand-lg navbar-light footer fixed-bottom">
+  <div class="container text-left">
+    <a class="navbar-brand float-left" href="https://twitter.com/?lang=fr" target="_blank"><img src="img/twitter.png" class="img_size"></a>
+    <a class="navbar-brand float-left" href="https://fr-fr.facebook.com/" target="_blank"><img src="img/facebook.png" class="img_size"></a>
+    <a class="navbar-brand float-left" href="https://www.instagram.com/?hl=fr" target="_blank"><img src="img/instagram.png" class="img_size"></a>
+  </div>
+</nav>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
