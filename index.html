@@ -30,7 +30,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ateliers</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item">Inscription Ateliers</a></li>
+              <li><a class="dropdown-item" data-bs-target="#form">Inscription Ateliers</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -50,7 +50,6 @@
       </div>
     </div>
   </nav>
-  </div>
    <!-- Bootstrap banner -->
    <div id="carouselBanner" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -147,14 +146,16 @@
     </div>
     </div>
     <!-- Bootstrap Presentation -->
-  <div class="row mb-4 m-3">
+  <div class="row mb-4 ">
     <div class="col-6">
       <img src="./polar.jpg" class="img-fluid" alt="equipe" title="Team" id="us"/>
     </div>
-        <div class="col-6 polar text-light pt-3" style="background-color: #734046"> 
+        <div class="col-6 polar text-light pt-2" style="background-color: #734046"> 
           <p>"La meilleure manière de voyager, c'est encore de lire un bon livre."</p>
-          <p>Notre équipe composé de : Laura, Margarette et Paul sont disponible pour vous accueillir autour d'un livre et d'un bon thé afin de découvrir l'Univers Papiers.
-          <p>Horaire d'ouverture :<table class="Horaire d'ouverture">
+          <p>Notre équipe est à votre écoute pour vous accueillir autour d'un livre et d'un bon thé afin de découvrir l'Univers Papiers.
+          <p>Horaire d'ouverture :
+            <div class="table-responsive">
+            <table class="table text-light">
               <thead>
                 <tr>
                   <th scope="col">Day</th>
@@ -163,12 +164,6 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <th scope="row">Mardi</th>
-                  <td>10h30</td>
-                  <td>18h00</td>
-                </tr>
-                <tr>
                   <th scope="row">Mercredi</th>
                   <td>10h30</td>
                   <td>18h00</td>
@@ -190,8 +185,9 @@
                 </tr>
               </tbody>
             </table>
-          </p>
+          </div>
           <p>Adresse : Les Docks, 143 Rue Yves le Coz, 78000 Versailles</p>
+          </p>
         </div>
       </div>
 <div class="row mb-4 m-3"id="value">
