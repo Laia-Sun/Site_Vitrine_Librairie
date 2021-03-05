@@ -10,25 +10,28 @@
     <title>Univers Papiers</title>
 </head>
 <body>
-  <nav class="navbar navbar-light text-dark" style="background-color: white;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <img src="logo.jpg" alt="equipe" title="Team"/> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Univers Papiers</a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Qui sommes nous?</a>
+            <a class="nav-link active" aria-current="page" href="#new">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nos Valeurs</a>
+            <a class="nav-link" href="#us">Qui Somme nous?</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ateliers</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item">Inscription Ateliers</a></li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Ateliers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Inscription Ateliers</a>
+            <a class="nav-link" href="#value">Nos Valeurs</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -38,32 +41,31 @@
       </div>
     </div>
   </nav>
-    
   </div>
     <div class="bloc1 text-light">
-    <h4 class="text-center mx-auto" style="width:50%">Nos Nouveautés du mois :</h4> 
+    <h4 class="text-center mx-auto" style="width:50%" id="new">Nos Nouveautés du mois :</h4> 
     <div class="text-center mx-auto float-left">
     <div class="row ">
         <div class="col-md-3">
-              <img src="arlidge.jpg" alt="Am Stram Gram" title="Arlidge livre"  class="img-thumbnail">
+              <img src="arlidge.jpg" alt="Am Stram Gram" title="Arlidge livre"  class="img-thumbnail"/>
               <div class="caption">
                 <p class="font-italic font-size: 1.2rem">"Le désespoir était plus facile que l'espoir. L'espoir était cruel car il lui promettait des choses qu'elle craignait de ne plus jamais connaître : l'amour, la chaleur, le confort, le bonheur."</p>
               </div>
         </div>
         <div class="col-md-3">
-              <img src="bussi.jpg" alt="On la trouvait plutot jolie" title="Michel Bussi Livre" class="img-thumbnail">
+              <img src="bussi.jpg" alt="On la trouvait plutot jolie" title="Michel Bussi Livre" class="img-thumbnail"/>
               <div class="caption">
                 <p>"C’est une sensation étrange, croyez moi, de voir ainsi le monde partir dans le néant, basculer, disparaître alors que vous, vous allez rester."</p>
               </div>
         </div>
         <div class="col-md-3">
-              <img src="jules vernes.jpg" alt="20000 lieues sous terre" title=" Jules Vernes livre"class="img-thumbnail">
+              <img src="jules vernes.jpg" alt="20000 lieues sous terre" title=" Jules Vernes livre"class="img-thumbnail"/>
               <div class="caption">
                 <p>"Ce ne sont pas de nouveaux continents qu'il faut à la terre, mais de nouveaux hommes!"</p>
               </div>
         </div>
         <div class="col-md-3">
-                <img src="zero.jpg" alt="Rêveurs zéro" title="Elisa Beiran livre" class="img-thumbnail">
+                <img src="zero.jpg" alt="Rêveurs zéro" title="Elisa Beiran livre" class="img-thumbnail"/>
                 <div class="caption">
                   <p>"Mais tout à coup, dans l’idée de la disparition du rêve, le sentiment du vide et de la perte est plus fort que celui du confort retrouvé.{...} A faire disparaître le rêve, ne risquerait-on pas de faire disparaître le monde ?"</p>
                 </div>
@@ -72,23 +74,23 @@
     </div> 
     </div>
     <div class="bloc2">
-    <h4 class="text-center mx-auto" style="width:50%">Nos coups de &#x2661; :</h4> 
+    <h4 class="text-center mx-auto" style="width:50%" id="favoris">Nos coups de &#x2661; :</h4> 
     <div class="text-center mx-auto float-left">
     <div class="row ">
     <div class="col-md-3">
-            <img src="1984.jpg" alt="George Orwell - 1984" title="Nos coups de coeur"class="img-thumbnail" style="background-color: #321f28">
+            <img src="1984.jpg" alt="George Orwell - 1984" title="Nos coups de coeur"class="img-thumbnail" style="background-color: #321f28"/>
             <div class="caption">
               <p>Coup de &#x2661; Univers Team</p>
             </div>
       </div>
       <div class="col-md-3">
-            <img src="./laprincesse.jpg" alt="Camilla Lackberg - La princesse de glace" title="Votre coup de coeur" class="img-thumbnail" style="background-color: #321f28">
+            <img src="./laprincesse.jpg" alt="Camilla Lackberg - La princesse de glace" title="Votre coup de coeur" class="img-thumbnail" style="background-color: #321f28"/>
             <div class="caption">
               <p>Votre coup de &#x2661; en boutique</p>
             </div>
       </div>
       <div class="col-md-3">
-            <img src="fredvargas.jpg" alt="Fred Vargas - Pars vite et reviens tard" title="Atelier Auteurs" class="img-thumbnail" style="background-color: #321f28">
+            <img src="fredvargas.jpg" alt="Fred Vargas - Pars vite et reviens tard" title="Atelier Auteurs" class="img-thumbnail" style="background-color: #321f28"/>
             <div class="caption">
               <p>Atelier : Rencontre Auteur</p>
             </div>
@@ -99,7 +101,7 @@
     </div>
   <div class="row mb-4">
     <div class="col-6">
-      <img src="./polar.jpg" class="img-fluid" alt="equipe" title="Team">
+      <img src="./polar.jpg" class="img-fluid" alt="equipe" title="Team" id="us"/>
     </div>
         <div class="col-6 polar text-light" style="background-color: #734046"> 
           <p>La meilleure manière de voyager, c'est encore de lire un bon livre. Jules Claretie</p>
@@ -109,9 +111,9 @@
         </div>
       </div>
 
-<div class="row">
+<div class="row"id="value">
   <div class="bloc3 col-6">
-    <img src="./eco.png" class="img-fluid" alt="Une image de librairie" title="Une Librairie">
+    <img src="./eco.png" class="img-fluid" alt="Une image de librairie" title="Une Librairie"/>
   </div>
   <div class="col-6 sf">
     <p>Univers Papier est une librairie d'occasion qui se veut solidaire et Eco-responsable.
