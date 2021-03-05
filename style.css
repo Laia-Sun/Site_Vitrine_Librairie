@@ -1,11 +1,33 @@
+@font-face {
+  font-family: "VenusRising";
+  src: url("fonts/venus_rising_rg-webfont.woff") format("woff"),
+        url("fonts/venus_rising_rg-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "TypeWriter";
+  src: url("/fonts/jmh_typewriter-webfont.woff") format("woff"),
+        url("/fonts/jmh_typewriter-webfont.woff2") format("woff2");
+}
+
 .carousel-caption {
   top: 220px;
 }
 
-.carousel-caption h1, .carousel-caption h2 {
+/*.carousel-caption h1, .carousel-caption h2 {
   font-family: 'Caveat', cursive;
   font-size: 5rem;
+} */
+
+.sf {
+  font-family: 'VenusRising';
+  font-size: 2.5rem;
+  margin: 10px 0 20px 0;
 }
 
-
+.detective {
+  font-family: 'Caveat', cursive;
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
 
