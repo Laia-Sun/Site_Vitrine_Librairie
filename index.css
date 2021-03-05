@@ -1,7 +1,18 @@
+/* CSS Caroussel*/
+.carousel-caption {
+    top: 220px;
+  }
+  .carousel-caption h1, .carousel-caption h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 5rem;
+  }
+  h2 {
+    font-family: 'Caveat', cursive;
+  }
+/* CSS Nouveauté*/
 :root {
     --main-bg-color:#321f28;
 }
-
 .bloc1{
     
     background-color:var(--main-bg-color);
@@ -13,17 +24,21 @@
 .form-group {
     color: #321f28;  
 }
+/* CSS Presentation*/
 .bloc3 {
     color: #321f28; 
     background-color: white; 
 }
-.carousel-caption {
-    top: 220px;
-  }
-  .carousel-caption h1, .carousel-caption h2 {
-    font-family: 'Caveat', cursive;
-    font-size: 5rem;
-  }
-  h4 {
-    font-family: 'Caveat', cursive;
-  }
+/* CSS Footer*/
+.footer
+{
+    background-color: #321f28;
+}
+.img_size
+{
+    width: 50px;
+    height: 50px;
+}
+.row{
+    font-size: 18px;
+}
