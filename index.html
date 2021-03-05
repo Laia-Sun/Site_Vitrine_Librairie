@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="Librairie Univers Papier "/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E/">
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet"/>
     <title>Univers Papiers</title>
@@ -51,7 +51,7 @@
     </div>
   </nav>
    <!-- Bootstrap banner -->
-   <div id="carouselBanner" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
+   <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <picture>
@@ -86,31 +86,31 @@
       </button>
     </div>
 <!-- Bootstrap nouveautés -->
-    <div class="bloc1 text-light pt-5 pb-5">
-    <h2 class="text-center mx-auto m-1 pb-4" style="width:50%" id="new">Nos Nouveautés du mois :</h2> 
+    <div class="bloc1 text-light pt-5 pb-4">
+    <h2 class="text-center mx-auto mb-5" style="width:50%" id="new">Nos Nouveautés du mois :</h2> 
     <div class="text-center mx-auto float-left">
     <div class="row">
         <div class="col-md-3">
               <img src="./pictures/arlidge.jpg" alt="Am Stram Gram" title="Arlidge livre"  class="img-thumbnail"/>
-              <div class="caption">
+              <div class="caption p-3">
                 <p class="font-italic font-size: 1.2rem">"Le désespoir était plus facile que l'espoir. L'espoir était cruel car il lui promettait des choses qu'elle craignait de ne plus jamais connaître : l'amour, la chaleur, le confort, le bonheur."</p>
               </div>
         </div>
         <div class="col-md-3">
               <img src="./pictures/bussi.jpg" alt="On la trouvait plutot jolie" title="Michel Bussi Livre" class="img-thumbnail"/>
-              <div class="caption">
+              <div class="caption p-3">
                 <p>"C’est une sensation étrange, croyez moi, de voir ainsi le monde partir dans le néant, basculer, disparaître alors que vous, vous allez rester."</p>
               </div>
         </div>
         <div class="col-md-3">
               <img src="./pictures/jules vernes.jpg" alt="20000 lieues sous terre" title=" Jules Vernes livre"class="img-thumbnail"/>
-              <div class="caption">
+              <div class="caption p-3">
                 <p>"Ce ne sont pas de nouveaux continents qu'il faut à la terre, mais de nouveaux hommes!"</p>
               </div>
         </div>
         <div class="col-md-3">
                 <img src="./pictures/zero.jpg" alt="Rêveurs zéro" title="Elisa Beiran livre" class="img-thumbnail"/>
-                <div class="caption">
+                <div class="caption p-3">
                   <p>"Mais tout à coup, dans l’idée de la disparition du rêve, le sentiment du vide et de la perte est plus fort que celui du confort retrouvé.{...} A faire disparaître le rêve, ne risquerait-on pas de faire disparaître le monde ?"</p>
                 </div>
           </div>
@@ -123,19 +123,19 @@
       <div class="row ">
         <div class="col-md-4">
           <img src="./pictures/1984.jpg" alt="George Orwell - 1984" title="Nos coups de coeur"class="img-thumbnail" style="background-color: #321f28"/>
-          <div class="caption">
+          <div class="caption p-3">
             <p>Coup de &#x2661; Univers Team</p>
           </div>
         </div>
         <div class="col-md-4">
           <img src="./pictures/./laprincesse.jpg" alt="Camilla Lackberg - La princesse de glace" title="Votre coup de coeur" class="img-thumbnail" style="background-color: #321f28"/>
-          <div class="caption">
+          <div class="caption p-3">
             <p>Votre coup de &#x2661; en boutique</p>
           </div>
         </div>
         <div class="col-md-4">
           <img src="./pictures/fredvargas.jpg" alt="Fred Vargas - Pars vite et reviens tard" title="Atelier Auteurs" class="img-thumbnail" style="background-color: #321f28"/>
-          <div class="caption">
+          <div class="caption p-3">
             <p>Atelier : Rencontre Auteur</p>
           </div>
         </div>
@@ -144,11 +144,11 @@
     </div>
     </div>
     <!-- Bootstrap Presentation -->
-  <div class="row mb-4 pt-5 pb-5">
-    <div class="col-sm col-md-6">
+  <div class="row mb-4 pt-5 pb-5 g-0 secondaryColor">
+    <div class="col-md col-lg-6 flexVerticalAlign">
       <img src="./pictures/./polar.jpg" class="img-fluid" alt="equipe" title="Team" id="us"/>
     </div>
-        <div class="col-sm polar text-light pt-2" style="background-color: #734046"> 
+        <div class="col-md col-lg-6 polar text-light p-5"> 
           <p>"La meilleure manière de voyager, c'est encore de lire un bon livre."</p>
           <p>Notre équipe est à votre écoute pour vous accueillir autour d'un livre et d'un bon thé afin de découvrir l'Univers Papiers.
           <p>Horaire d'ouverture :
@@ -188,27 +188,30 @@
           </p>
         </div>
       </div>
-<div class="row mb-4 m-3 "id="value">
-  <div class="bloc3 col-sm col-md-6 pt-3">
-    <img src="./pictures/homepage_presentation_eco" class="img-fluid" alt="écologie" title="logo ecoresponsabilite"/>
+<div class="row pt-5 pb-5 g-0" id="value">
+  <div class="bloc3 col-sm col-lg-6 flexVerticalAlign">
+    <picture>
+      <source srcset="pictures/homepage_presentation_eco_md.jpg" media="(max-width: 992px)">
+      <img src="pictures/homepage_presentation_eco_lg.jpg" class="img-fluid" alt="écologie" title="logo ecoresponsabilite"> 
+    </picture>
   </div>
-  <div class="col-sm col-md-6">
-    <p>Univers Papier est une librairie d'occasion qui se veut solidaire et Eco-responsable.</p>
-    <p>Pour cela nous récoltons des romans Policiers et de Science-Fiction.</p>
-    <p>Ils sont ensuite triés, certains sont recyclés (pour refaire du papier).</p>
-    <p>D'autres vont dans des boîtes à livres, les autres sont vendus en magasin.</p>
-    <p>Afin de vous accompagner dans votre lecture nous vous proposons des boissons maison et des mets issues de l'agriculture biologique.</p>
+  <div class="col-sm col-lg-6 p-5 flexVerticalAlign">
+    <p>Univers Papier est une librairie d'occasion qui se veut solidaire et Eco-responsable.<br>
+    Pour cela nous récoltons des romans Policiers et de Science-Fiction.<br>
+    Ils sont ensuite triés, certains sont recyclés (pour refaire du papier).<br>
+    D'autres vont dans des boîtes à livres, les autres sont vendus en magasin.<br>
+    Afin de vous accompagner dans votre lecture nous vous proposons des boissons maison et des mets issues de l'agriculture biologique.</p>
   </div>
 </div>
 <!-- Bootstrap footer -->
-<nav class="navbar navbar-expand-lg navbar-light footer fixed-bottom">
-  <div class="container text-left">
+<nav class="navbar navbar-expand-lg navbar-light footer">
+  <div class="container socials">
     <a class="navbar-brand float-left" href="https://twitter.com/?lang=fr" target="_blank"><img src="./pictures/twitter.png" class="img_size"/></a>
     <a class="navbar-brand float-left" href="https://fr-fr.facebook.com/" target="_blank"><img src="./pictures/facebook.png" class="img_size"/></a>
     <a class="navbar-brand float-left" href="https://www.instagram.com/?hl=fr" target="_blank"><img src="./pictures/instagram.png" class="img_size"/></a>
   </div>
 </nav>
-  <script src="./pictures/https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
 </body>
